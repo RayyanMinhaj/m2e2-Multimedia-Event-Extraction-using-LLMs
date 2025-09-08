@@ -1,0 +1,54 @@
+[
+  {
+    "sentence_id": 1,
+    "text": "UNECA Director Says Dangers in Guinea are Serious",
+    "events": [
+      {
+        "event_type": "Conflict.Attack",
+        "modality": "text",
+        "trigger": {
+          "text": "Dangers",
+          "char_start": 22,
+          "char_end": 28
+        },
+        "arguments": [
+          {
+            "role": "Place",
+            "text": "Guinea",
+            "char_start": 32,
+            "char_end": 37
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "sentence_id": 2,
+    "text": "Bodies of people killed during a rally are seen at the capital's main mosque in Conakry, Guinea",
+    "events": [
+      {
+        "event_type": "Conflict.Attack",
+        "modality": "text",
+        "trigger": {
+          "text": "killed",
+          "char_start": 20,
+          "char_end": 26
+        },
+        "arguments": [
+          {
+            "role": "Victim",
+            "text": "people",
+            "char_start": 10,
+            "char_end": 16
+          },
+          {
+            "role": "Place",
+            "text": "Conakry, Guinea",
+            "char_start": 82,
+            "char_end": 96
+          }
+        ]
+      }
+    ]
+  }
+]
