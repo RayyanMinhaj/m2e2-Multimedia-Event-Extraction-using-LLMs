@@ -18,7 +18,8 @@
             "char_start": 32,
             "char_end": 37
           }
-        ]
+        ],
+        "sentence_id": 1
       }
     ]
   },
@@ -47,7 +48,8 @@
             "char_start": 82,
             "char_end": 96
           }
-        ]
+        ],
+        "sentence_id": 2
       }
     ]
   },
@@ -81,8 +83,232 @@
               0.7
             ]
           }
-        ]
+        ],
+        "image_id": "VOA_EN_NW_2009.12.09.416313_2.jpg"
       }
     ]
+  },
+  {
+    "image_id": "VOA_EN_NW_2009.12.09.416313_0.jpg",
+    "events": [
+      {
+        "event_type": "justice.arrestjail",
+        "modality": "image",
+        "trigger": {
+          "text": "arrest"
+        },
+        "arguments": [
+          {
+            "role": "agent",
+            "text": "soldier",
+            "bbox": [
+              0.0,
+              0.5,
+              1.0,
+              1.0
+            ]
+          },
+          {
+            "role": "person",
+            "text": "Ali Seidou",
+            "bbox": [
+              0.1,
+              0.2,
+              0.3,
+              0.4
+            ]
+          },
+          {
+            "role": "instrument",
+            "text": "gun",
+            "bbox": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          },
+          {
+            "role": "place",
+            "text": "Conakry",
+            "bbox": [
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "image_id": "VOA_EN_NW_2009.12.09.416313_0.jpg"
+      }
+    ]
+  },
+  {
+    "image_id": "VOA_EN_NW_2009.12.09.416313_1.jpg",
+    "events": [
+      {
+        "event_type": "life.die",
+        "modality": "image",
+        "trigger": "death",
+        "arguments": [
+          {
+            "role": "victim",
+            "text": "corpses",
+            "bbox": [
+              0.0,
+              0.1,
+              0.6,
+              0.95
+            ]
+          },
+          {
+            "role": "place",
+            "text": "ground",
+            "bbox": [
+              0.0,
+              0.0,
+              1.0,
+              0.3
+            ]
+          }
+        ],
+        "image_id": "VOA_EN_NW_2009.12.09.416313_1.jpg"
+      },
+      {
+        "event_type": "conflict.demonstrate",
+        "modality": "image",
+        "trigger": "police",
+        "arguments": [
+          {
+            "role": "police",
+            "text": "police",
+            "bbox": [
+              0.3,
+              0.2,
+              0.8,
+              0.9
+            ]
+          }
+        ],
+        "image_id": "VOA_EN_NW_2009.12.09.416313_1.jpg"
+      }
+    ]
+  },
+
+
+
+  {
+    "event_type": "Conflict.Attack",
+    "modality": "multimedia",
+    "similarity": 0.056958798319101334,
+    "text_event": {
+      "event_type": "Conflict.Attack",
+      "modality": "text",
+      "trigger": {
+        "text": "Dangers",
+        "char_start": 22,
+        "char_end": 28
+      },
+      "arguments": [
+        {
+          "role": "Place",
+          "text": "Guinea",
+          "char_start": 32,
+          "char_end": 37
+        }
+      ],
+      "sentence_id": 1
+    },
+    "image_event": {
+      "event_type": "Conflict.Attack",
+      "modality": "image",
+      "trigger": {
+        "text": "soldiers"
+      },
+      "arguments": [
+        {
+          "role": "attacker",
+          "text": "soldiers",
+          "bbox": [
+            0.12,
+            0.4,
+            0.45,
+            0.78
+          ]
+        },
+        {
+          "role": "target",
+          "text": "protesters",
+          "bbox": [
+            0.5,
+            0.35,
+            0.8,
+            0.7
+          ]
+        }
+      ],
+      "image_id": "VOA_EN_NW_2009.12.09.416313_2.jpg"
+    }
+  },
+
+  
+  {
+    "event_type": "Conflict.Attack",
+    "modality": "multimedia",
+    "similarity": 0.1567249596118927,
+    "text_event": {
+      "event_type": "Conflict.Attack",
+      "modality": "text",
+      "trigger": {
+        "text": "killed",
+        "char_start": 20,
+        "char_end": 26
+      },
+      "arguments": [
+        {
+          "role": "Victim",
+          "text": "people",
+          "char_start": 10,
+          "char_end": 16
+        },
+        {
+          "role": "Place",
+          "text": "Conakry, Guinea",
+          "char_start": 82,
+          "char_end": 96
+        }
+      ],
+      "sentence_id": 2
+    },
+    "image_event": {
+      "event_type": "Conflict.Attack",
+      "modality": "image",
+      "trigger": {
+        "text": "soldiers"
+      },
+      "arguments": [
+        {
+          "role": "attacker",
+          "text": "soldiers",
+          "bbox": [
+            0.12,
+            0.4,
+            0.45,
+            0.78
+          ]
+        },
+        {
+          "role": "target",
+          "text": "protesters",
+          "bbox": [
+            0.5,
+            0.35,
+            0.8,
+            0.7
+          ]
+        }
+      ],
+      "image_id": "VOA_EN_NW_2009.12.09.416313_2.jpg"
+    }
   }
 ]
