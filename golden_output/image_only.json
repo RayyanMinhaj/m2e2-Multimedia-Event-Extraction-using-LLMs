@@ -1,0 +1,79 @@
+[
+  {
+    "image_id": "VOA_EN_NW_2015.11.26.3074855_0",
+    "caption": "Lamon Reccord, second from right, yells at a Chicago police officer \"Shoot me 16 times\" as he and others march through Chicago's Loop Wednesday, Nov. 25, 2015.",
+    "event_type": "conflict.demonstrate",
+    "role": {
+      "demonstrator": [
+        [
+          "200",
+          "450",
+          "900",
+          "700"
+        ]
+      ],
+      "place": [
+        [
+          "0",
+          "0",
+          "999",
+          "999"
+        ]
+      ],
+      "police": [
+        [
+          "600",
+          "600",
+          "999",
+          "999"
+        ]
+      ]
+    }
+  },
+  {
+    "image_id": "VOA_EN_NW_2015.11.26.3074855_1",
+    "caption": "Two Chicago police officers take a man into custody during a protest march, Wednesday, Nov. 25, 2015, in Chicago, the day after murder charges were brought against police officer Jason Van Dyke in the killing of 17-year-old Laquan McDonald.",
+    "event_type": "justice.arrestjail",
+    "role": {
+      "agent": [
+        [
+          250,
+          191,
+          846,
+          1630
+        ],
+        [
+          1212,
+          240,
+          1782,
+          1630
+        ]
+      ],
+      "person": [
+        [
+          660,
+          214,
+          1366,
+          1630
+        ]
+      ],
+      "place": []
+    }
+  },
+  {
+    "image_id": "VOA_EN_NW_2015.11.26.3074855_2",
+    "caption": "Chicago Police Officer Jason Van Dyke is seen in an undated picture released by the Cook County state's attorney's office in Chicago.",
+    "event_type": "Justice.Arrestjail",
+    "role": {
+      "person": [
+        [
+          "1",
+          19,
+          17,
+          717,
+          648
+        ]
+      ]
+    }
+  }
+]

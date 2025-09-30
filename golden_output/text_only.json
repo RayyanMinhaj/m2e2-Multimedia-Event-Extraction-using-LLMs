@@ -1,0 +1,196 @@
+[
+  {
+    "sentence_id": "VOA_EN_NW_2015.11.26.3074855_1",
+    "sentence": "A Second Night of Chicago Protests Over Police Shooting Protesters took to the streets of Chicago for the second straight night Wednesday, one day after the city's police department released video of a black teenager being shot to death by a white officer.",
+    "trigger": {
+      "text": "Protests",
+      "start": 5,
+      "end": 6
+    },
+    "event_type": "conflict.demonstrate",
+    "arguments": [
+      {
+        "role": "demonstrator",
+        "text": "Protesters",
+        "start": 9,
+        "end": 10
+      },
+      {
+        "role": "police",
+        "text": "Police",
+        "start": 7,
+        "end": 8
+      },
+      {
+        "role": "place",
+        "text": "the streets of Chicago",
+        "start": 12,
+        "end": 16
+      }
+    ]
+  },
+
+
+
+
+
+
+
+  {
+    "sentence_id": "VOA_EN_NW_2015.11.26.3074855_2",
+    "sentence": "The protesters rallied in downtown Chicago, following the release of video that showed officer Jason Van Dyke shooting 17-year-old Laquan McDonald 16 times in October 2014.",
+    "trigger": {
+      "text": "rallied",
+      "start": 2,
+      "end": 2
+    },
+    "event_type": "conflict.demonstrate",
+    "arguments": [
+      {
+        "role": "demonstrator",
+        "text": "The protesters",
+        "start": 0,
+        "end": 1
+      },
+      {
+        "role": "place",
+        "text": "in downtown Chicago",
+        "start": 3,
+        "end": 5
+      }
+    ]
+  },
+
+
+
+  
+    {
+      "sentence_id": "VOA_EN_NW_2015.11.26.3074855_3",
+      "sentence": "Van Dyke was arrested Tuesday and charged with murder.",
+      "trigger": {
+        "text": "arrested",
+        "start": 3,
+        "end": 4
+      },
+      "event_type": "justice.arrestjail",
+      "arguments": [
+        {
+          "role": "person",
+          "text": "Van Dyke",
+          "start": 0,
+          "end": 2
+        }
+      ]
+    },
+
+
+
+  {
+    "sentence_id": "VOA_EN_NW_2015.11.26.3074855_4",
+    "sentence": "They also showed pictures of black people who had been killed by police in recent years and called on people to prevent similar tragedies from happening again.",
+    "trigger": {
+      "start": 10,
+      "end": 11,
+      "text": "killed"
+    },
+    "event_type": "life.die",
+    "arguments": [
+      {
+        "role": "victim",
+        "start": 5,
+        "end": 7,
+        "text": "black people"
+      },
+      {
+        "role": "agent",
+        "start": 12,
+        "end": 13,
+        "text": "police"
+      }
+    ]
+  },
+  {
+    "sentence_id": "VOA_EN_NW_2015.11.26.3074855_5",
+    "sentence": "Two Chicago police officers take a man into custody during a protest march, Wednesday, Nov. 25, 2015, in Chicago, the day after murder charges were brought against police officer Jason Van Dyke in the killing of 17-year-old Laquan McDonald.",
+    "trigger": {
+      "text": "custody",
+      "start": 8,
+      "end": 9
+    },
+    "event_type": "justice.arrestjail",
+    "arguments": [
+      {
+        "role": "agent",
+        "text": "Two Chicago police officers",
+        "start": 0,
+        "end": 4
+      },
+      {
+        "role": "person",
+        "text": "a man",
+        "start": 5,
+        "end": 7
+      },
+      {
+        "role": "place",
+        "text": "Chicago",
+        "start": 18,
+        "end": 19
+      }
+    ]
+  },
+  {
+    "sentence_id": "VOA_EN_NW_2015.11.26.3074855_6",
+    "sentence": "Protesters arrested Several people were arrested during the protests.",
+    "trigger": {
+      "text": "arrested",
+      "start": 5,
+      "end": 6
+    },
+    "event_type": "justice.arrestjail",
+    "arguments": [
+      {
+        "role": "person",
+        "text": "Several people",
+        "start": 2,
+        "end": 4
+      }
+    ]
+  },
+  {
+    "sentence_id": "VOA_EN_NW_2015.11.26.3074855_7",
+    "sentence": "Demonstrators took lights off a Christmas tree in a park, according to U.S. media reports.",
+    "trigger": {
+      "text": "took",
+      "start": 1,
+      "end": 1
+    },
+    "event_type": "movement.transport",
+    "arguments": [
+      {
+        "role": "agent",
+        "text": "Demonstrators",
+        "start": 0,
+        "end": 0
+      },
+      {
+        "role": "artifact/person",
+        "text": "lights",
+        "start": 2,
+        "end": 2
+      },
+      {
+        "role": "origin",
+        "text": "a Christmas tree",
+        "start": 4,
+        "end": 6
+      },
+      {
+        "role": "place",
+        "text": "in a park",
+        "start": 7,
+        "end": 9
+      }
+    ]
+  }
+]
